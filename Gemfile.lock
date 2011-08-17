@@ -37,10 +37,6 @@ GEM
       gherkin (~> 2.4.5)
       json (>= 1.4.6)
       term-ansicolor (>= 1.0.5)
-    cucumber-rails (1.0.2)
-      capybara (>= 1.0.0)
-      cucumber (~> 1.0.0)
-      nokogiri (>= 1.4.6)
     diff-lcs (1.1.2)
     excon (0.6.5)
     ffi (1.0.9)
@@ -106,7 +102,6 @@ DEPENDENCIES
   capybara
   cocaine
   cucumber (~> 1.0.0)
-  cucumber-rails
   fog
   jruby-openssl
   mime-types
