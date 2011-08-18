@@ -1,3 +1,12 @@
+PATH
+  remote: ../
+  specs:
+    paperclip (2.3.16)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -172,6 +181,7 @@ DEPENDENCIES
   jruby-openssl
   mime-types
   mocha
+  paperclip!
   rails (~> 3.1.0.rc5)
   rake
   rdoc
