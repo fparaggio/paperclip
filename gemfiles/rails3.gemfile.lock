@@ -32,10 +32,18 @@ GEM
       bundler
       rake
     arel (2.0.10)
+    aruba (0.4.5)
+      bcat (>= 0.6.1)
+      childprocess (>= 0.1.9)
+      cucumber (>= 0.10.7)
+      rdiscount (>= 1.6.8)
+      rspec (>= 2.6.0)
     aws-s3 (0.6.2)
       builder
       mime-types
       xml-simple
+    bcat (0.6.1)
+      rack (~> 1.0)
     builder (2.1.2)
     capybara (1.0.1)
       mime-types (>= 1.16)
@@ -107,7 +115,16 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.4)
     rake (0.9.2)
+    rdiscount (1.6.8)
     rdoc (3.9.2)
+    rspec (2.6.0)
+      rspec-core (~> 2.6.0)
+      rspec-expectations (~> 2.6.0)
+      rspec-mocks (~> 2.6.0)
+    rspec-core (2.6.4)
+    rspec-expectations (2.6.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.6.0)
     ruby-hmac (0.4.0)
     rubyzip (0.9.4)
     selenium-webdriver (2.4.0)
@@ -133,6 +150,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   appraisal
+  aruba
   aws-s3
   bundler
   capybara
